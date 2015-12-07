@@ -1,0 +1,20 @@
+.mnav
+  &-ul
+    display flex
+    flex-wrap row
+    justify-content space-between
+    align-items baseline
+
+  &-page
+    .mnav-a
+      font-family $hfont
+      font-weight $bold
+
+  &-a
+    color $blu
+
+  &-li
+    &:not(.mnav-page)
+      .mnav-a
+        font-size ($pc/$p)*1em
+        font-size ($pc/$p)*1rem

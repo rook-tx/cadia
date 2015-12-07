@@ -1,0 +1,44 @@
+$bw     = 2em
+
+
+.cadia
+  height 0
+  padding-bottom 100%
+
+  &-ring
+    border $bw solid $blu
+    border-radius 100%
+    height 100%
+    left 0
+    position absolute
+    top 0
+    width 100%
+
+  &-input
+    appearance none
+    background transparent
+    border 0
+    color $w
+    display block
+    font-family $cfont
+    font-size ($h1/$p)*1em
+    left 0
+    outline 0
+    position absolute
+    text-align center
+    transform translate3d(0,-50%,0)
+    top 50%
+    width 100%
+
+  &-label
+    bottom $bw
+    color $blu
+    font-family $hfont
+    font-size ($pc/$p)*1em
+    font-weight $bold
+    left $bw
+    letter-spacing .5em
+    position absolute
+    right $bw
+    text-align center
+    text-transform uppercase

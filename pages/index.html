@@ -1,13 +1,17 @@
 bodyClass: home
 pageClass: index
+pageName: Test
 
 {% extends "base.html" %}
 
 {% block body %}
 <section class="section">
   <div class="wrap">
-    <div class="clear-col">
-      <h1>Home</h1>
+    <div class="cadia">
+      <div class="cadia-ring">
+        <label for="bg" class="cadia-label">mmol/l</label>
+        <input name="bg" value="5.6" type="number" class="cadia-input" required>
+      </div>
     </div>
   </div>
 </section>
